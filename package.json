@@ -1,13 +1,18 @@
 {
-  "type": "module",
   "name": "code-gui",
   "version": "1.0.0",
-  "description": "Main editor, formely used for a simple code editor made in Node.JS.",
-  "main": "main.js",
+  "description": "Show contents in a Graphical way in the console. Prompts are required.",
+  "main": "index.js",
+  "entry point": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "git repository": "https://github.com/WojtekCodesToday/code-gui",
   "keywords": [],
   "author": "WojtekGame",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
