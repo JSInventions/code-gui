@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "code-gui",
+  "version": "1.0.0",
+  "description": "Main editor, formely used for a simple code editor made in Node.JS.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "WojtekGame",
+  "license": "ISC"
+}
