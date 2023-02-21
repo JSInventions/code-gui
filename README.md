@@ -1,8 +1,9 @@
 # code-gui
 See contents of a folder with a Terminal UI!
 
+[![code-gui](https://snyk.io/advisor/npm-package/code-gui/badge.svg)](https://snyk.io/advisor/npm-package/code-gui)
 # Instalation
- - Node.js 14.x
+ - Node.js 19.x
  - npm 6 (it's bundled with Node.js!)
  
  But it's possible that you can upgrade, but in some cases it may cause errors.
