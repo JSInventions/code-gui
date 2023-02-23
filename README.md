@@ -3,8 +3,8 @@ See contents of a folder with a Terminal UI!
 
 [![code-gui](https://snyk.io/advisor/npm-package/code-gui/badge.svg)](https://snyk.io/advisor/npm-package/code-gui)
 # Instalation
- - Node.js 14.x
- - npm 6 (it's bundled with Node.js!)
+ - Node.js (latest)
+ - npm (it's bundled with Node.js!)
  
  But it's possible that you can upgrade, but in some cases it may cause errors.
 
@@ -17,7 +17,7 @@ See contents of a folder with a Terminal UI!
  npm i code-gui
  ```
 # Usage
-#### Note: After 1.0 you have to add ```{"style":"text"}``` after the specified path.
+#### Note: After ```1.0```, you have to add ```{"style":"text"}``` after the specified path.
 
 Simple Usage:
 ```javascript
@@ -31,7 +31,14 @@ When ran the program, you may see this in the terminal:
 #------
 ```
 # Styles
-This section is only used after 1.0
+This section is only used after 1.0.
+
+They are loaded in ```{"style":"place style here"}```.
+
+### The following styles of ```loadDir``` are:
+ - ```text``` (```1.1.0```)
+ - ```emoji``` (```1.1.0```)
+ - ```emoji-hacker``` (```1.1.0```)
 # Contributing
 To contribute, you have to:
  -  Apply to GitHub's rules
