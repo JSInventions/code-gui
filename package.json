@@ -1,18 +1,16 @@
 {
+  "type": "module",
   "name": "code-gui",
-  "version": "1.0.0",
-  "description": "Show contents in a Graphical way in the console. Prompts are required.",
-  "main": "index.js",
-  "entry point": "index.js",
+  "version": "1.1.1",
+  "description": "Show contents in a Graphical way in the console.",
+  "main": "index.cjs",
+  "entry point": "index.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.cjs",
+    "start": "node index.cjs"
   },
   "git repository": "https://github.com/WojtekCodesToday/code-gui",
-  "keywords": [],
+  "keywords": ["code", "gui", "-", "code-gui", "scratch", "wojtek", "game", "wojtekgame", "WojtekCodesToday"],
   "author": "WojtekGame",
-  "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+  "license": "ISC"
 }
