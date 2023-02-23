@@ -3,7 +3,7 @@ See contents of a folder with a Terminal UI!
 
 [![code-gui](https://snyk.io/advisor/npm-package/code-gui/badge.svg)](https://snyk.io/advisor/npm-package/code-gui)
 # Instalation
- - Node.js 19.x
+ - Node.js 14.x
  - npm 6 (it's bundled with Node.js!)
  
  But it's possible that you can upgrade, but in some cases it may cause errors.
@@ -14,14 +14,15 @@ See contents of a folder with a Terminal UI!
   - open your main folder (root of your app) in your terminal
   - in the terminal, type:
  ```console
- npm install code-gui
+ npm i code-gui
  ```
- #### Note: To have it in every project,  add ```-g``` at the end of the command!
 # Usage
+#### Note: After 1.0 you have to add ```{"style":"text"}``` after the specified path.
+
 Simple Usage:
 ```javascript
-const loadDir = require("code-gui")
-loadDir("C:/")
+var cg = require("code-gui")
+cg.loadDir("C:/", {"style":"text"})
 ```
 When ran the program, you may see this in the terminal:
 ```console
@@ -29,6 +30,8 @@ When ran the program, you may see this in the terminal:
 | (contents of C:/)
 #------
 ```
+# Styles
+This section is only used after 1.0
 # Contributing
 To contribute, you have to:
  -  Apply to GitHub's rules
