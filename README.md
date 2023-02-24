@@ -1,7 +1,10 @@
-# code-gui
-See contents of a folder with a Terminal UI!
-
+<!-- Logo -->
+# [![img](https://u.cubeupload.com/Wojtek_Game/codeguilogo.png)](https://github.com/WojtekCodesToday/code-gui/)
+[![install size](https://packagephobia.com/badge?p=code-gui)](https://packagephobia.com/result?p=code-gui)
 [![code-gui](https://snyk.io/advisor/npm-package/code-gui/badge.svg)](https://snyk.io/advisor/npm-package/code-gui)
+[![npm-install](https://nodei.co/npm/code-gui.png?mini=true)](https://npmjs.com/package/code-gui)
+
+See contents of a folder with a Terminal UI! 🤩
 # Instalation
  - Node.js (latest)
  - npm (it's bundled with Node.js!)
@@ -17,12 +20,12 @@ See contents of a folder with a Terminal UI!
  npm i code-gui
  ```
 # Usage
-#### Note: After ```1.0```, you have to add ```{"style":"text"}``` after the specified path.
+__Note: After ```1.0```, you have to add ```{"style":"text"}``` after the specified path.__
 
 Simple Usage:
 ```javascript
-var cg = require("code-gui")
-cg.loadDir("C:/", {"style":"text"})
+var loadDir = require("code-gui")
+loadDir("C:/", {"style":"text"})
 ```
 When ran the program, you may see this in the terminal:
 ```console
@@ -43,3 +46,5 @@ They are loaded in ```{"style":"place style here"}```.
 To contribute, you have to:
  -  Apply to GitHub's rules
  - Read this topic: https://scratch.mit.edu/discuss/topic/664129/
+ # Source code
+ [see source code](https://unpkg.com/code-gui/)
