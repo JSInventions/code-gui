@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "code-gui",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Show contents in a Graphical way in the console.",
   "main": "index.cjs",
   "entry point": "index.cjs",
@@ -10,7 +10,21 @@
     "start": "node index.cjs"
   },
   "git repository": "https://github.com/WojtekCodesToday/code-gui",
-  "keywords": ["code", "gui", "-", "code-gui", "scratch", "wojtek", "game", "wojtekgame", "WojtekCodesToday"],
+  "keywords": [
+    "code",
+    "gui",
+    "-",
+    "code-gui",
+    "scratch",
+    "wojtek",
+    "game",
+    "wojtekgame",
+    "WojtekCodesToday"
+  ],
   "author": "WojtekGame",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "loaddir": "^2.1.4"
+  }
 }
