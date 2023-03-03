@@ -1,5 +1,5 @@
 <!-- Logo -->
-# [![img](https://u.cubeupload.com/Wojtek_Game/codeguilogo.png)](https://github.com/WojtekCodesToday/code-gui/)
+# [![img](https://u.cubeupload.com/Wojtek_Game/codeguilogo.png#gh-dark-mode-only)](https://github.com/WojtekCodesToday/code-gui/) [![imgw](https://u.cubeupload.com/Wojtek_Game/codeguilogowhite.png#gh-light-mode-only)](https://github.com/WojtekCodesToday/code-gui/)
 [![install size](https://packagephobia.com/badge?p=code-gui)](https://packagephobia.com/result?p=code-gui)
 [![code-gui](https://snyk.io/advisor/npm-package/code-gui/badge.svg)](https://snyk.io/advisor/npm-package/code-gui)
 [![npm-install](https://nodei.co/npm/code-gui.png?mini=true)](https://npmjs.com/package/code-gui)
